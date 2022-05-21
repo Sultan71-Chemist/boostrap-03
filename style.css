@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(94, 139, 184);
+}
+h1{
+    color: crimson;
+}
+
+.container{
+    background-color: rgb(125, 189, 125);
+    padding: 2px;
+    
+    
+
+}
+.container > .row{
+    padding: auto;
+    margin-top: 5px;
+}
+.container > .row > .col{
+    color: blueviolet;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.container > .row > .col >p{
+    color: black;
+    font-size: 15px;
+}
+img{
+    width: 100px;
+    height: 120px;
+}
